@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to UserHub 👋</h1>
+
+    <p style="margin-bottom: 20px; font-size: 18px;">
+      We currently have 
+      <strong><%= count %></strong> users registered in our system.
+    </p>
+
+    <div style="display: flex; gap: 15px;">
+      <a href="/user">
+        <button>View Users</button>
+      </a>
+
+      <a href="/user/new">
+        <button class="edit">Join Us Today</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
