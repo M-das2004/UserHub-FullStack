@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   database: 'test',
-  password: 'Meghma@2004#',
+  password: '',
 });
 
 /* ---------------- HOME ---------------- */
@@ -249,4 +249,5 @@ app.listen(8080, () => {
 //app.listen(8080, () => {
 //  console.log("Server is listening on port 8080");
 //});
+
 //
